@@ -111,18 +111,4 @@ Example sample response for `GET /api/recipes?page=1&limit=10` (sample data load
 { "page":1, "limit":10, "total":5, "data":[ /* ... sample recipes ... */ ] }
 ```
 
-Deliverables checklist
-
-- [x] Source code (backend, loader, frontend)
-- [x] Database schema (`schema.sql`)
-- [x] Sample data (`recipes.json`)
-- [x] DB helper script (`create_db.py`)
-- [x] Smoke test script (`smoke_test.py`)
-- [x] README with run and submission instructions
-
-If you'd like, I can also:
-- Add a small `pytest` suite for the API endpoints.
-- Provide a Dockerfile and docker-compose (with PostgreSQL) for production-like setup.
-
-Choose any of the above and I'll implement it.
-
+![CI](https://github.com/<USERNAME>/<REPO>/actions/workflows/ci.yml/badge.svg)
